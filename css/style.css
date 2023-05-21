@@ -138,6 +138,7 @@ textarea {
 }
 
 .display-container {
+    perspective: 1000px;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -147,11 +148,29 @@ textarea {
     box-shadow: 5px 5px 20px #ADB5BD;
 }
 
-.display-container p,
-.input-container p {
+.empty-message1, .empty-message2{
+    position: relative;
+    top: 65%;
     padding: 10px;
     margin: 5px;
     text-align: center;
+}
+
+.input-container p{
+    text-align: center;
+}
+#display-message{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.img-message{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: floating 4.3s ease-in-out infinite;
 }
 
 .empty-message1 {
@@ -297,5 +316,17 @@ textarea {
 @media (min-width: 1920px) {
     main {
         width: 70%;
+    }
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(-50%, -90px);
+    }
+    100% {
+        transform: translate(-50%, -50%);
     }
 }
