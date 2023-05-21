@@ -150,7 +150,7 @@ textarea {
 
 .empty-message1, .empty-message2{
     position: relative;
-    top: 65%;
+    top: 50%;
     padding: 10px;
     margin: 5px;
     text-align: center;
@@ -324,7 +324,7 @@ textarea {
         transform: translate(-50%, -50%);
     }
     50% {
-        transform: translate(-50%, -90px);
+        transform: translate(-50%, -105px);
     }
     100% {
         transform: translate(-50%, -50%);
