@@ -143,6 +143,11 @@ textarea {
     box-shadow: 5px 5px 20px #ADB5BD;
 }
 
+.display-container image{
+    max-width: 100%;
+    height: auto;
+}
+
 .empty-message1{
     position: relative;
     top: 61%;
@@ -221,6 +226,10 @@ textarea {
     footer {
         flex-direction: row;
         justify-content: space-around;
+    }
+    
+    .display-container{
+        max-width: 100%;
     }
 
     #display-message {
