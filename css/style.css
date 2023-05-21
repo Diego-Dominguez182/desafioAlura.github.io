@@ -223,15 +223,6 @@ textarea {
         justify-content: space-around;
     }
 
-    .social-media {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .i-attribute {
-        font-size: small;
-    }
-
     #display-message {
         font-size: 32px;
     }
