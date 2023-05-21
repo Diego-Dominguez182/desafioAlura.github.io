@@ -143,7 +143,7 @@ textarea {
     box-shadow: 5px 5px 20px #ADB5BD;
 }
 
-.empty-message1, .empty-message2{
+.empty-message1{
     position: relative;
     top: 50%;
     padding: 10px;
