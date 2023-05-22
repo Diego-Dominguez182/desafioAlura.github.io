@@ -249,6 +249,26 @@ textarea {
     }
 }
 
+@media (min-width 1080px){
+    footer{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .display-container{
+        max-width: 100%;
+    }
+    
+    .imag-message{
+        display: none;
+    }
+    
+    .user-message {
+        font-size: 32px;
+    }
+}
+    
+
 @media (min-width: 992px) {
     main {
         width: 90%;
