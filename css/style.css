@@ -197,10 +197,6 @@ textarea {
         margin: 0 auto;
     }
     
-    .img-message{
-        display: none;
-    }
-
     .brand-text-short {
         display: none;
     }
@@ -235,10 +231,6 @@ textarea {
     .display-container{
         max-width: 100%;
     }
-    
-    .img-message{
-        display: none;
-    }
 
     #display-message {
         font-size: 32px;
@@ -257,10 +249,6 @@ textarea {
     
     .display-container{
         max-width: 100%;
-    }
-    
-    .imag-message{
-        display: none;
     }
     
     .user-message {
