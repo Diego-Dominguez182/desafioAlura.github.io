@@ -1,7 +1,15 @@
 function limpiar() {
     document.getElementById("user-message").value = "";
     document.getElementById("display-message").innerText = "";
-    document.querySelectorAll("#img-empty, #message1-empty, #message2-empty").forEach(element => {
+
+    var anchoVentana = window.innerWidth;
+    var elementsToShow = document.querySelectorAll("#message1-empty, #message2-empty");
+
+    if (anchoVentana >= 1080) {
+        elementsToShow = document.querySelectorAll("#img-empty, #message1-empty, #message2-empty");
+    }
+
+    elementsToShow.forEach(element => {
         element.style.display = "block";
     });
 }
